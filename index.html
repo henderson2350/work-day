@@ -20,17 +20,26 @@
     <title>Work Day Scheduler</title>
   </head>
   <body>
-    <header>
-      <h1>Work Day Scheduler</h1>
-      <h2>A simple calendar app for scheduling your work day</h2>
+    <header class=jumbotron>
+      <h1 class="title">Work Day Scheduler</h1>
+      <p>A simple calendar app for scheduling your work day</p>
       <div id="date"></div>
     </header>
-    <div>
+    <div style= "background-color: purple;">
       <p>This is where a divider will go.</p>
     </div>
-    <section>
-      <p>This is where the planner will go.</p>
-    </section>
+    <div class="container-fluid">
+        <div class="row align-items-center" style = "margin: 40px;">
+            <div class="col">9am</div>
+            <div class="col">Events</div>
+            <button class="col">Check</button>
+          </div>
+          <div class="row align-items-center" style = "margin: 40px;">
+            <div class="col">9am</div>
+            <div class="col">Events</div>
+            <button class="col">Check</button>
+          </div>
+    </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
